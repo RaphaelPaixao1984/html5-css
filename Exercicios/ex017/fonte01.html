@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Avsolutas
+            cm, mm, (in Polegada), px, (pt ponta), (pc Paica) 
+
+            Medidas Relativas
+            em (tamanho atual da fonte altura M), (ex altura x da fonte), (rem altura fonte body), vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+        }
+        h1 {
+            
+            /* propriedade shorthand font
+            - font-style -> font-weight-> font-size-> font-family 
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 2em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif; 
+        }
+        h2 {
+            font:  bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ad totam dignissimos? Mollitia fuga laborum repellat blanditiis harum placeat voluptas, excepturi atque aspernatur enim ut molestiae. Rerum delectus esse atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eos unde quasi ex ullam? Provident dolor sapiente ex ipsum vel totam cum, facere consectetur eum aliquam nemo optio, obcaecati commodi!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum nisi ea non quas id iure. Repudiandae aspernatur voluptatibus odit quas fuga voluptas similique laborum reprehenderit laudantium adipisci! Maxime, tenetur reiciendis!</p>
+    <h2>Subtítulo de exercicio</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis modi ab ipsum a iste pariatur. Beatae voluptatibus recusandae perspiciatis non, ratione eaque, iure, dolores accusamus temporibus laborum quas earum asperiores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus recusandae suscipit voluptates ratione corporis sint, ipsam temporibus porro. Tempora voluptatum expedita suscipit quisquam ratione neque ut est quasi nulla animi!</p>
+</body>
+</html>
